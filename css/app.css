@@ -1,0 +1,96 @@
+body {
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+    background-color: #32475f;
+    font-family: 'Ubuntu', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    padding: 3rem 0;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px rgb(138, 138, 138);
+}
+.contenedor {
+    background-color: white;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+p {
+    font-size: 2rem;
+}
+h1, p {
+    text-align: center;
+}
+form {
+    /* max-width: 1100px; */
+    margin: 0 auto;
+    padding: 4rem;
+    background: aliceblue;
+    margin-bottom: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor h1 {
+    color: black;
+    text-shadow: none;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+#app p{
+    text-align: left!important;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resultado div {
+    border-bottom: 1px solid #e1e1e1;
+    background-color: aliceblue;
+}
+.auto-contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+    .auto-contenedor {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+#resultado p {
+    font-weight: 600;
+    color: #32475f;
+    margin: 0;
+    padding: 1rem;
+    /* border-bottom: 1px solid #e1e1e1; */
+}
+#resultado p span {
+    font-weight: 600;
+    color: #2471c8;
+}
+#resultado p:last-of-type{
+    border: none;
+}
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+}
+.error {
+    background-color: red;
+}
+
+.sitio-web  {
+    color: white;
+    display: block;
+    font-size: 3rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-decoration: none;
+}
+.sitio-web:hover {
+    color: white;
+}
